@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    text-align: center;
+    clear: both;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    height: 60px;
+    padding: 10px;
+    background-color: red;
+}
+#flag{
+    padding: 10px;
+    align-items: center;
+    vertical-align: middle;
+}
+header h1{
+    color: red;
+}
+header{
+    width: 100%;
+    font-family:din-condensed-web;
+}
+.nav{
+    color: black;
+}
+#nav1 {
+    padding: 30px;
+    width: 30%;
+    float: left;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+#nav2{
+    width: 40%;
+    float: left;
+}
+#nav3{
+    padding: 30px;
+    width: 30%;
+    float: right;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+}
+.first_para {
+    text-align: center;
+}
+.nav{
+    overflow: hidden;
+}
+.nav a :hover{
+    font-family: sans-serif;
+    background-color: #494343;
+    color: #333 ;
+}
+#para3{
+    width: 60%;
+    text-align: center;
+}
+#main{
+    width: 100%;
+}
+.image-container{
+    width: 33.3%;
+}
+#context{
+    width: 40%;
+}
+#center{
+    width: 90%;
+    margin: 0 auto;
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
+a:visited{
+    text-decoration: none; 
+}
+a:link{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+    .image-container{
+        width: 100%;
+        float: none;
+        padding: 10px 0px 10px 0px;
+    }
+    #main{
+        width: 100%;
+    }
+    #nav1 #nav3{
+        width: 0;
+        float: none !important;
+    }
+    #nav2{
+        width: 100%;
+    }
+}
